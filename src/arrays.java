@@ -12,6 +12,13 @@ public class arrays {
 
 		}
 	}
+	
+	private static void imprimir_array(int numeros[]) {
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.print(numeros[i] + " ");
+		}
+	}
+
 
 
 
