@@ -18,9 +18,13 @@ public class array {
 			System.out.println(numeros[i]);
 		}
 		
-	
 
 	}
+	
+	public static void imprimir_arrays() {
+		rellenarArrays();
+	}
+	
 	
 
 
