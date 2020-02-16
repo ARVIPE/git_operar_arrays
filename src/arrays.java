@@ -5,6 +5,7 @@ public class arrays {
 		rellenarArray(numeros);
 		imprimir_array(numeros);
 		sumar_array(numeros);
+		nuevometodo2(numeros);
 		
 
 	}
@@ -32,6 +33,19 @@ public class arrays {
 		System.out.println("suma:" + suma);
 	}
 	
+	private static void nuevometodo2(int array[]) {
+		int aux=array[array.length-1];
+		for (int i = array.length-1; i>0; i--) {
+			array[i] = array[i-1];
+		}
+		
+		array[0]=aux;
+		System.out.println();
+		for (int i = 0; i < array.length; i++) {
+			
+			System.out.println(array[i] + "");
+		}
+	}
 
 
 
