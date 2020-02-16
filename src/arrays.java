@@ -2,6 +2,9 @@ public class arrays {
 	
 	public static void main(String[] args) {
 		int numeros[] = new int[10];
+		rellenarArray(numeros);
+		imprimir_array(numeros);
+		sumar_array(numeros);
 		
 
 	}
@@ -19,6 +22,16 @@ public class arrays {
 		}
 	}
 
+
+	private static void sumar_array(int array[]) {
+		int suma = 0;
+		for (int i = 0; i < array.length; i++) {
+		suma += array[i];
+		}
+		System.out.println();
+		System.out.println("suma:" + suma);
+	}
+	
 
 
 
